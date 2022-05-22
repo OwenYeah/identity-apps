@@ -29,10 +29,10 @@
     },
     "tenantResolutionStrategy": "id_token",
     "ui": {
-        "appCopyright": "WSO2 Identity Server ${copyright} ${year}",
-        "appTitle": "My Account | WSO2 Identity Server",
+        "appCopyright": "HKGI Identity Server ${copyright} ${year}",
+        "appTitle": "My Account | HKGI Identity Server",
         "appName": "My Account",
-        "appLogoPath": "/assets/images/branding/logo.svg",
+        "appLogoPath": "/assets/images/branding/hkgi_logo.png",
         "authenticatorApp": [],
         "disableMFAforSuperTenantUser": false,
         "features": {
@@ -48,7 +48,7 @@
             },
             "overview": {
                 "disabledFeatures": [],
-                "enabled": true,
+                "enabled": false,
                 "scopes": {
                     "create": [],
                     "read": [],
@@ -57,7 +57,7 @@
                 }
             },
             "personalInfo": {
-                "disabledFeatures": ["profileInfo.mobileVerification"],
+                "disabledFeatures": ["profileInfo.mobileVerification", "profileInfo.linkedAccounts", "profileInfo.exportProfile", "profileInfo.externalLogins"],
                 "enabled": true,
                 "scopes": {
                     "create": [],
@@ -67,7 +67,7 @@
                 }
             },
             "security": {
-                "disabledFeatures": ["security.loginVerifyData.typingDNA"],
+                "disabledFeatures": ["security.loginVerifyData.typingDNA", "security.manageConsents", "security.activeSessions", "security.mfa"],
                 "enabled": true,
                 "scopes": {
                     "create": [],
@@ -86,7 +86,7 @@
         "privacyPolicyConfigs": {
             "visibleOnFooter": true
         },
-        "productName": "WSO2 Identity Server",
+        "productName": "HKGI Identity Server",
         "productVersionConfig": {
             "allowSnapshot": true,
             "textCase": "uppercase",
