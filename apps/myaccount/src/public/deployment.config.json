@@ -8,14 +8,14 @@
         "clockTolerance": 300,
         "responseMode": "query",
         "scope": [ "SYSTEM" ],
-        "serverOrigin": "https://localhost:9443",
+        "serverOrigin": "https://sso.hkgi-dev.local:9443",
         "storage": "webWorker"
     },
     "i18nResourcePath": "",
     "isSaas": true,
     "loginCallbackPath": "",
     "logoutCallbackPath": "",
-    "serverOrigin": "https://localhost:9443",
+    "serverOrigin": "https://sso.hkgi-dev.local:9443",
     "routePaths": {
         "home": "/overview",
         "login": "",

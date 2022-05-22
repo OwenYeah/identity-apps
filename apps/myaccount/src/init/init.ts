@@ -24,7 +24,7 @@ import "regenerator-runtime/runtime";
 
 if (!window["AppUtils"] || !window["AppUtils"]?.getConfig()) {
     AppUtils.init({
-        consoleAppOrigin: process.env.NODE_ENV === "production" ? undefined : "https://localhost:9001",
+        consoleAppOrigin: process.env.NODE_ENV === "production" ? undefined : "https://sso.hkgi-dev.local:9001",
         contextPath: contextPathGlobal,
         serverOrigin: serverOriginGlobal,
         superTenant: superTenantGlobal,

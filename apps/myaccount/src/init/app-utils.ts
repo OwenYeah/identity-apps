@@ -64,7 +64,7 @@ export const AppUtils = (function() {
 
     const superTenantFallback = "carbon.super";
     const tenantPrefixFallback = "t";
-    const fallbackServerOrigin = "https://localhost:9443";
+    const fallbackServerOrigin = "https://sso.hkgi-dev.local:9443";
     const appBaseForHistoryAPIFallback = "/";
     const urlPathForSuperTenantOriginsFallback = "";
     const isSaasFallback = true;

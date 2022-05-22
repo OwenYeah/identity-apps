@@ -45,11 +45,11 @@ interface CustomWindow extends Window {
             appBaseNameForHistoryAPI: "/",
             appBaseWithTenant: "/myaccount",
             clientID: "MY_ACCOUNT",
-            clientOrigin: "https://localhost:9000",
-            clientOriginWithTenant: "https://localhost:9000",
+            clientOrigin: "https://sso.hkgi-dev.local:8999",
+            clientOriginWithTenant: "https://sso.hkgi-dev.local:8999",
             debug: false,
             idpConfigs: {
-                serverOrigin: "https://localhost:9443",
+                serverOrigin: "https://sso.hkgi-dev.local:9443",
                 enablePKCE: true,
                 clockTolerance: 300,
                 responseMode: "query",
@@ -59,8 +59,8 @@ interface CustomWindow extends Window {
                 storage: "webWorker"
             },
             isSaas: true,
-            loginCallbackURL: "https://localhost:9000/myaccount",
-            logoutCallbackURL: "https://localhost:9000/myaccount",
+            loginCallbackURL: "https://sso.hkgi-dev.local:8999/myaccount",
+            logoutCallbackURL: "https://sso.hkgi-dev.local:8999/myaccount",
             productVersionConfig: {
                 allowSnapshot: true,
                 textCase: "uppercase",
@@ -71,8 +71,8 @@ interface CustomWindow extends Window {
                 login: "/myaccount",
                 logout: "/myaccount/logout"
             },
-            serverOrigin: "https://localhost:9443",
-            serverOriginWithTenant: "https://localhost:9443",
+            serverOrigin: "https://sso.hkgi-dev.local:9443",
+            serverOriginWithTenant: "https://sso.hkgi-dev.local:9443",
             session: {
                 userIdleTimeOut: 600,
                 userIdleWarningTimeOut: 580,

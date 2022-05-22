@@ -50,7 +50,7 @@ const STATIC_ASSETS_DIRECTORY = "static/media";        // Output directory for s
 const JAVA_EE_SERVER_FOLDERS = [ "**/WEB-INF/**/*" ];  // Java EE server specific folders.
 
 // Dev Server Default Configs.
-const DEV_SERVER_PORT = 9000;
+const DEV_SERVER_PORT = 8999;
 const ROOT_CONTEXT_DEV_SERVER_INITIAL_REDIRECT = "/login";
 
 const THEME_TO_USE = deploymentConfig.ui.theme.name || "default";
@@ -146,7 +146,7 @@ module.exports = (env) => {
             disableHostCheck: isDevServerHostCheckDisabled,
             contentBase: distFolder,
             historyApiFallback: true,
-            host: "localhost",
+            host: "sso.hkgi-dev.local",
             hot: true,
             https: true,
             inline: true,
@@ -346,7 +346,7 @@ module.exports = (env) => {
                 profile: true
             }),
             isAnalyzeMode && new BundleAnalyzerPlugin({
-                analyzerHost: "localhost",
+                analyzerHost: "sso.hkgi-dev.local",
                 analyzerPort: analyzerPort
             }),
             isDevelopment && new webpack.HotModuleReplacementPlugin(),
