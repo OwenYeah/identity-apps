@@ -1,0 +1,6 @@
+/*******************************
+        Product Overrides (My Account)
+*******************************/
+.ui.header.heading.compact.product-title-text:not(.app-name), #app-footer .right.menu {
+  display: none
+}

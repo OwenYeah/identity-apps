@@ -49,8 +49,10 @@
 /*-------------------
     Brand Colors
 --------------------*/
-@primaryColor        : @orange;
-@secondaryColor      : #E0E1E2;
+//@primaryColor        : @orange;
+//@secondaryColor      : #E0E1E2;
+@primaryColor        : @hkgiPrimary;
+@secondaryColor      : @hkgiSecondary;
 @accentColor1        : #173163;
 @accentColor2        : #f5385b;
 @accentColor3        : #00b7e1;
@@ -84,6 +86,8 @@
 @aliceBlue        : #f7fcff;
 @alabaster        : #f7f7f7;
 @pureBlack        : #000000;
+@hkgiPrimary      : #0098cb;
+@hkgiSecondary    : #566585;
 
 /*-------------------
         Page
