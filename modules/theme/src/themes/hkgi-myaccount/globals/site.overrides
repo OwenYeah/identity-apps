@@ -25,3 +25,8 @@ p.inline-paragraph,
 span.ui.text.color.red{
     color:@red;
 }
+
+.ui.header.heading.compact.product-title-text:not(.app-name), 
+#app-footer .right.menu {
+  display: none
+}
