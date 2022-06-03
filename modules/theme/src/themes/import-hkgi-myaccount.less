@@ -16,21 +16,8 @@
  * under the License.
  */
 
-@isSubTheme: false; // Keep it "true" for sub-themes.
-@theme: "hkgi-myaccount"; // Change it to your theme name. Folder name also has to be the same
+@import "../semantic-ui-core/default/globals/site.variables";
+@import "hkgi-myaccount/globals/site.variables";
 
-@import "../import-hkgi-myaccount"; // This will import the base theme.
-
-p.inline-paragraph,
-.inline-paragraph > p { 
-    display: inline;
-}
-
-span.ui.text.color.red{
-    color:@red;
-}
-
-.ui.header.heading.compact.product-title-text:not(.app-name), 
-#app-footer .right.menu {
-  display: none
-}
+@import "../semantic-ui-core/all";
+@import "../theme-core/all";
